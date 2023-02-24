@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "goapi/server"
 
 func main() {
-	fmt.Println("hola golang")
+	server.ServerRun()
 }
